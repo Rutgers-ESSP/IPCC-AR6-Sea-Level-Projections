@@ -4,7 +4,7 @@ This repo provides guidance for access the IPCC Sixth Assessment Report sea leve
 
 ### Available viz Zenodo
 
-* **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). 
+* **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). This is the dataset most users will need.
 * **[IPCC AR6 Relative Sea Level Projection P-Boxes](https://doi.org/10.5281/zenodo.5914918):** This data set contains relative sea level projections for all of the p-boxes described in AR6 WG1 9.6.3, as well as a variant excluding the AR6 estimates of background sea level change.
 * **[IPCC AR6 Relative Sea Level Projection Distributions](https://doi.org/10.5281/zenodo.5914931):** This data set contains relative sea level projection distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as distributions for the components contributing to relative sea level change.
 * **[IPCC AR6 Relative Sea Level Projections without Background Component](https://doi.org/10.5281/zenodo.5967268):** This data set contains relative sea level projections that exclude the background term (representing primarily land subsidence or uplift). It includes probability distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as p-boxes derived from these distributions.
@@ -13,6 +13,10 @@ This repo provides guidance for access the IPCC Sixth Assessment Report sea leve
 ### Other tools
 
 Summary versions of regional projections can also be accessed through the [NASA/IPCC Sea Level Projections Tool](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool).
+
+### Access to full set of Monte Carlo samples
+
+The full set of Monte Carlo samples for global mean sea level projections, as well as the components driving global mean sea level change, are available via [Zenodo]((https://doi.org/10.5281/zenodo.5914709). We are still working on a hosting solution for the corresponding ~20 TB of relative sea level samples. In the interim, please [open an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/issues) if you need access to relative sea level Monte Carlo samples.
 
 ## Required Acknowledgements and Citations
 
