@@ -34,7 +34,7 @@ Please also include in the acknowledgements of works citing these projections:
 
 ## IPCC AR6 Licensing
 
-The IPCC AR6 Sea-Level Rise Projections are licensed by the authors under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.
+The IPCC AR6 Sea-Level Rise Projections are licensed by the authors under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.
 
 ## Acknowledgements
 
