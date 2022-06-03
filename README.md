@@ -16,7 +16,7 @@ Summary versions of regional projections can also be accessed through the [NASA/
 
 ### Access to full set of Monte Carlo samples
 
-The full set of Monte Carlo samples for global mean sea level projections, as well as the components driving global mean sea level change, are available via [Zenodo]((https://doi.org/10.5281/zenodo.5914709). We are still working on a hosting solution for the corresponding ~20 TB of relative sea level samples. In the interim, please [open an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/issues) if you need access to relative sea level Monte Carlo samples.
+The full set of Monte Carlo samples for global mean sea level projections, as well as the components driving global mean sea level change, are available via [Zenodo](https://doi.org/10.5281/zenodo.5914709). We are still working on a hosting solution for the corresponding ~20 TB of relative sea level samples. In the interim, please [open an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/issues) if you need access to relative sea level Monte Carlo samples.
 
 ## Required Acknowledgements and Citations
 
