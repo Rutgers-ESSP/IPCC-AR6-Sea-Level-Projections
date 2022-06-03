@@ -2,7 +2,7 @@
 
 This repo provides guidance for access the IPCC Sixth Assessment Report sea level projections. See [Chapter 9 of the Working Group 1 contribution to the Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf) for more information.
 
-### Available viz Zenodo
+### Available via Zenodo
 
 * **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). This is the dataset most users will need.
 * **[IPCC AR6 Relative Sea Level Projection P-Boxes](https://doi.org/10.5281/zenodo.5914918):** This data set contains relative sea level projections for all of the p-boxes described in AR6 WG1 9.6.3, as well as a variant excluding the AR6 estimates of background sea level change.
