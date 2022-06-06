@@ -1,6 +1,6 @@
 # Guide to the IPCC AR6 Sea Level Projections
 
-This repo provides guidance for access the IPCC Sixth Assessment Report sea level projections. See [Chapter 9 of the Working Group 1 contribution to the Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf) for more information.
+This repo provides guidance for accessing the IPCC Sixth Assessment Report sea level projections. See [Chapter 9 of the Working Group 1 contribution to the Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf) for more information.
 
 ### Available via Zenodo
 
