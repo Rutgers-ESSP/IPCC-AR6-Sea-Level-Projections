@@ -42,7 +42,7 @@ For example, the SSP1-1.9 experiment using workflow 1-E may be found at the foll
 https://storage.googleapis.com/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_workflows/wf_1e/ssp119/total-workflow.zarr
 ``` 
 
-This may be read using zarr using the zarr v1 specification.
+This may be read using [zarr](https://zarr.dev/) using the zarr v1 specification.
 
 For example, in python:
 
