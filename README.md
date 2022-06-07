@@ -18,13 +18,15 @@ Summary versions of regional projections can also be accessed through the [NASA/
 
 ### Access to full set of Monte Carlo samples
 
+We are still working on a permanent hosting solution for the ~10 TB of local relative sea level samples. As a temporary solution, the simulation totals for each workflow and scenario are available as partitioned zarr arrays on google cloud. Rates of change associated with the provided levels have been omitted from the below archive while we look for a hosting solution.
+
+The full set of files available via google cloud are listed in the JSON file `google_zarr_stores.json` in this repository.
+
 **Global Monte Carlo samples**
 
 The full set of Monte Carlo samples for global mean sea level projections, as well as the components driving global mean sea level change, are available via [Zenodo](https://doi.org/10.5281/zenodo.5914709).
 
 **Gauge-based & gridded workflow Monte Carlo sample totals**
-
-We are still working on a permanent hosting solution for the ~5 TB of relative sea level samples. As a temporary solution, the simulation totals for each workflow and scenario are available as partitioned zarr arrays on google cloud.
 
 The data have been separated into gridded and tide-gauge based datasets. Because the simulations are generated based on sea level observations at tide gauge locations, users are encouraged to use the tide-gauge-based data for areas with good coverage of tide gauge locations. For areas with sparser coverage, or for applications requiring gridded or comprehensive global coverage, the gridded data is more suitable. Note that the gridded datasets are 40-50x larger than the tidal datasets, but have been partitioned spatially, enabling quick and bandwidth-efficient access to subsets of the globe.
 
@@ -101,10 +103,10 @@ Note that the gridded workflow samples (excluding vertical land motion) are in a
 
 The above workflow totals are calculated by adding individual components which together form the drivers of the local sea level simulations. Each of the workflow totals above have attributes which reference the workflow components from whihc they are derived (the components reference the `.nc` files from the original workflow, but the filenames may be parsed to find the correct workflow components in this dataset).
 
-* tide gauges (*free to download*: 63.67 GB): [`gs://ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{workflow_id}/{experiment_id}/total-workflow.zarr`](https://console.cloud.google.com/storage/browser/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components)
-* gridded (***requester pays***: 2.15 TB): [`gs://ar6-lsl-simulations-requesterpays-standard/gridded/full_sample_components/{workflow_id}/{experiment_id}/{component}.zarr`](https://console.cloud.google.com/storage/browser/ar6-lsl-simulations-requesterpays-standard/gridded/full_sample_components)
+* tide gauges (*free to download*: 63.67 GB): [`gs://ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{component}.zarr`](https://console.cloud.google.com/storage/browser/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components)
+* gridded (***requester pays***: 2.15 TB): [`gs://ar6-lsl-simulations-requesterpays-standard/gridded/full_sample_components/{component}.zarr`](https://console.cloud.google.com/storage/browser/ar6-lsl-simulations-requesterpays-standard/gridded/full_sample_components)
 
 The tide gauge data can also be acceessed via HTTPs through the public API endpoints:
-* tide gauges: `https://storage.googleapis.com/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{workflow_id}/{experiment_id}/total-workflow.zarr`
+* tide gauges: `https://storage.googleapis.com/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{component}.zarr`
 
 Note that the gridded workflow components are in a "Requester Pays" google cloud bucket. That means that, while we are looking for a permanent hosting solution, anyone accessing the gridded workflow components data will be charged for the data retrieval and egress fees. These can be expensive. Depending on your location, downloading 2.15 TB of data can cost upwards of $90-$450 (at the time of writing). Please note that the authors are not charging for access to the data - any costs incurred are simply the costs assessed by Google to retrieve the data. In order to access the data, you will need to authenticate with an active Google Cloud account with an attached payment method. The data are in the `us-west1` (Oregon) data center. Transfers within the Google Cloud Storage platform are significantly cheaper, and within the us-west1 region much more so. See https://cloud.google.com/storage/pricing#network-pricing.
