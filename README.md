@@ -2,25 +2,7 @@
 
 This repo provides guidance for accessing the IPCC Sixth Assessment Report sea level projections. See [Chapter 9 of the Working Group 1 contribution to the Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf) for more information.
 
-## Required Acknowledgements and Citations
-
-In order to document the impact of these sea-level rise projections, users of the projections are obligated to cite chapter 9 of Working Group 1 contribution to the the IPCC Sixth Assessment Report, the Framework for Assessment of Changes To Sea-level (FACTS) model description paper, and the version of the data set used:
-
-> Fox-Kemper, B., H.T. Hewitt, C. Xiao, G. Aðalgeirsdóttir, S.S. Drijfhout, T.L. Edwards, N.R. Golledge, M. Hemer, R.E. Kopp, G. Krinner, A. Mix, D. Notz, S. Nowicki, I.S. Nurhati, L. Ruiz, J.-B. Sallée, A.B.A. Slangen, and Y. Yu, 2021: Ocean, Cryosphere and Sea Level Change. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change \[Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)\]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, pp. 1211–1362, [doi:10.1017/9781009157896.011](https://doi.org/10.1017/9781009157896.011).
-     
-> Garner, G. G., R. E. Kopp, T. Hermans, A. B. A. Slangen, G. Koubbe, M. Turilli, S. Jha, T. L. Edwards, A. Levermann, S. Nowikci, M. D. Palmer, C. Smith, in prep. Framework for Assessing Changes To Sea-level (FACTS). Geoscientific Model Development.
-     
-> Garner, G. G., T. Hermans, R. E. Kopp, A. B. A. Slangen, T. L. Edwards, A. Levermann, S. Nowikci, M. D. Palmer, C. Smith, B. Fox-Kemper, H. T. Hewitt, C. Xiao, G. Aðalgeirsdóttir, S. S. Drijfhout, T. L. Edwards, N. R. Golledge, M. Hemer, G. Krinner, A. Mix, D. Notz, S. Nowicki, I. S. Nurhati, L. Ruiz, J-B. Sallée, Y. Yu, L. Hua, T. Palmer, B. Pearson, 2021. IPCC AR6 Sea Level Projections. Version 20210809. Dataset accessed [YYYY-MM-DD] at https://doi.org/10.5281/zenodo.5914709.
-
-Please also include in the acknowledgements of works citing these projections:
-
-> We thank the projection authors for developing and making the sea-level rise projections available, multiple funding agencies for supporting the development of the projections, and the NASA Sea Level Change Team for developing and hosting the IPCC AR6 Sea Level Projection Tool.
-
-## IPCC AR6 Licensing
-
-The IPCC AR6 Sea-Level Rise Projections are licensed by the authors under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.
-
-## Data Repositories and Tools
+See [LICENSE.md](LICENSE.md) for licensing and required acknowledgements and citations.
 
 ### Available via Zenodo
 
@@ -124,8 +106,3 @@ The tide gauge data can also be acceessed via HTTPs through the public API endpo
 * tide gauges: `https://storage.googleapis.com/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{workflow_id}/{experiment_id}/total-workflow.zarr`
 
 Note that the gridded workflow components are in a "Requester Pays" google cloud bucket. That means that, while we are looking for a permanent hosting solution, anyone accessing the gridded workflow components data will be charged for the data retrieval and egress fees. These can be expensive. Depending on your location, downloading 5 TB of data can cost upwards of $200-$1000 (at the time of writing). Please note that the authors are not charging for access to the data - any costs incurred are simply the costs assessed by Google to retrieve the data. In order to access the data, you will need to authenticate with an active Google Cloud account with an attached payment method. See https://cloud.google.com/storage/pricing#network-pricing.
-
-
-## Acknowledgements
-
-The development of the sea-level rise projections was supported by multiple funders, including the U.S. National Aeronautics and Space Administration (grants 80NSSC17K0698, 80NSSC20K1724 and 80NSSC21K0322 and JPL task 105393.509496.02.08.13.31), the U.S. National Science Foundation (grant ICER-1663807), the U.K. Natural Environment Research Council (grant NE/T009381/1), NIOZ Royal Netherlands Institute for Sea Research, PROTECT (which has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement no. 869304), and UK Natural Environment Research Council grant NE/T007443/1. We acknowledge the World Climate Research Programme, which, through its Working Group on Coupled Modelling, coordinated and promoted CMIP6. We thank the climate modeling groups for producing and making available their model output, the Earth System Grid Federation (ESGF) for archiving the data and providing access, and the multiple funding agencies who support CMIP6 and ESGF. 
