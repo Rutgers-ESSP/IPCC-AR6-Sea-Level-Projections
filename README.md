@@ -94,6 +94,12 @@ Attributes:
     zarr_processing_date:  Mon Jun  6 05:25:45 2022 (UTC)
 ```
 
+The data may also be copied in bulk using the command-line utility [`gsutil`](https://cloud.google.com/storage/docs/gsutil_install). For example, to copy the entire set of workflow 1-E tide-gauge experiments to your downloads directory, you could run the command (assuming a \*nix shell):
+
+```bash
+gsutil cp gs://ar6-lsl-simulations-public-standard/tide-gauges/full_sample_workflows/wf_1e ~/Downloads/
+```
+
 Please note that the simulation datasets are significantly larger than the corresponding distribution and confidence files. The tide gauge data is 35GB and the gridded data is 1.5 TB. When downloading the data over the public internet, *we ask that you please limit your download to the portions of the globe, time slices, workflows, and experiments which you will use prior to download*, and that you download a copy once and then access a local copy rather than downloading repeatedly from our servers.
 
 **Gauge-based & gridded workflow Monte Carlo samples (excluding vertical land motion)**
