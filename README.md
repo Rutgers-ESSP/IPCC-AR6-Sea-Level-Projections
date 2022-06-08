@@ -22,7 +22,7 @@ Summary versions of regional projections can also be accessed through the [NASA/
 
 We are still working on a permanent hosting solution for the ~10 TB of local relative sea level samples. As a temporary solution, the simulation totals for each workflow and scenario are available as partitioned zarr arrays on google cloud. Rates of change associated with the provided levels have been omitted from the below archive while we look for a hosting solution.
 
-The full set of files available via google cloud are listed in the JSON file `google_zarr_stores.json` in this repository.
+The full set of files available via google cloud are listed in the JSON file [`google_zarr_stores.json`](https://raw.githubusercontent.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/main/google_zarr_stores.json) in this repository.
 
 **Global Monte Carlo samples**
 
