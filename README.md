@@ -8,7 +8,7 @@ See [Kopp et al. (2022)](https://doi.org/10.1002/essoar.10511663.1) for more bac
 
 See [LICENSE.md](LICENSE.md) for licensing and required acknowledgements and citations.
 
-### Other tools
+### Summary projections
 
 Summary versions of regional projections can  be accessed through the [NASA/IPCC Sea Level Projections Tool](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool). For most users, this site should provide the desired level of information. 
 
