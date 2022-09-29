@@ -8,6 +8,10 @@ See [Kopp et al. (2022)](https://doi.org/10.1002/essoar.10511663.1) for more bac
 
 See [LICENSE.md](LICENSE.md) for licensing and required acknowledgements and citations.
 
+### Other tools
+
+Summary versions of regional projections can  be accessed through the [NASA/IPCC Sea Level Projections Tool](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool). For most users, this site should provide the desired level of information. 
+
 ### Available via Zenodo
 
 * **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). This is the dataset most users will need.
@@ -16,10 +20,6 @@ See [LICENSE.md](LICENSE.md) for licensing and required acknowledgements and cit
 * **[IPCC AR6 Relative Sea Level Projection Distributions](https://doi.org/10.5281/zenodo.5914931):** This data set contains relative sea level projection distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as distributions for the components contributing to relative sea level change.
 * **[IPCC AR6 Relative Sea Level Projections without Background Component](https://doi.org/10.5281/zenodo.5967268):** This data set contains relative sea level projections that exclude the background term (representing primarily land subsidence or uplift). It includes probability distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as p-boxes derived from these distributions.
 * **[Framework for Assessing Changes To Sea-level (FACTS) modules, scripts, and data for the IPCC AR6 sea level projections](https://doi.org/10.5281/zenodo.6419953):** This package contains the Frameworks for Assessing Changes To Sea-level (FACTS) modules, data, and scripts used to produce the sea level projections in the Intergovernmental Panel on Climate Change Sixth Assessment Report (AR6). See [the FACTS GitHub repo](https://github.com/radical-collaboration/facts) for the development version of FACTS.
-
-### Other tools
-
-Summary versions of regional projections can also be accessed through the [NASA/IPCC Sea Level Projections Tool](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool).
 
 ### Access to full set of Monte Carlo samples
 
