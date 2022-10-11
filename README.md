@@ -14,7 +14,7 @@ Summary versions of regional projections can  be accessed through the [NASA/IPCC
 
 ### Available via Zenodo
 
-* **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). This is the dataset most users will need.
+* **[IPCC AR6 Sea Level Projections](https://doi.org/10.5281/zenodo.5914709):** This data set contains the full set of samples for the global projections, as well as summary relative sea level projections (both with and without the AR6 estimate of background sea level process rates). This is the dataset most users will need. See [FACTS_confidence_output_file_readme.pdf](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/blob/main/FACTS_confidence_output_file_readme.pdf) for documentation.
 * **[IPCC AR6 Sea Level Milestones](https://doi.org/10.5281/zenodo.7098141):** This data set contains files indicating the likelihood of when sea level milestones are crossed over time.
 * **[IPCC AR6 Relative Sea Level Projection P-Boxes](https://doi.org/10.5281/zenodo.5914918):** This data set contains relative sea level projections for all of the p-boxes described in AR6 WG1 9.6.3, as well as a variant excluding the AR6 estimates of background sea level change.
 * **[IPCC AR6 Relative Sea Level Projection Distributions](https://doi.org/10.5281/zenodo.5914931):** This data set contains relative sea level projection distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as distributions for the components contributing to relative sea level change.
