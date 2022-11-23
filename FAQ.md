@@ -19,9 +19,9 @@ The seven workflows differ in their treatment of cryospheric components.
 
 | p-box | Description |
 |-------|-------------|
-| 1e | P-box of workflows 1e and 2e. Considers only *medium confidence* ice sheet processes. (Should not be used for rates) |
+| 1e | P-box of workflows 1e and 2e. Considers only *medium confidence* ice sheet processes. (Should not be used for rates.) |
 | 1f | P-box of workflows 1f and 2f. Considers only *medium confidence* ice sheet processes. |
-| 2e | P-box of workflows 1e, 2e, 3e and 4. Incorporates *low confidence* ice sheet processes. |
+| 2e | P-box of workflows 1e, 2e, 3e and 4. Incorporates *low confidence* ice sheet processes.  (Should not be used for rates.)  |
 | 2f | P-box of workflows 1f, 2f, 3f, and 4. Incorporates *low confidence* ice sheet processes. |
 
 The canonical IPCC results use p-boxes 1e and 2e for projections of levels through 2100, and p-boxes 1f and 2f for post-2100 projections and for projections of rates.
