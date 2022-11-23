@@ -8,3 +8,4 @@
 
 **Which projections use Gaussian process emulation of ice sheet and glacier responses?**
 
+**Why do the p-box and confidence files exhibit discontinuities at the 50th percentile?**
