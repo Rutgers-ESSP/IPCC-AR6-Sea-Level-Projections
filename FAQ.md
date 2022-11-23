@@ -14,6 +14,7 @@ The seven workflows differ in their treatment of cryospheric components.
 | 3f | Parametric fits to ISMIP6 projections for Greenland, DeConto et al. (2021) for Antarctica, recalibrated IPCC AR5 parametric glacier model for glaciers. |
 | 4 | Bamber et al. (2019) for ice sheets, recalibrated IPCC AR5 parametric glacier model for glaciers |
 
+Note that the ISMIP6 and GlacierMIP emulator does not capture correlations between different time periods, and thus should not be used for rates.
 
 **What are the different p-boxes?**
 
