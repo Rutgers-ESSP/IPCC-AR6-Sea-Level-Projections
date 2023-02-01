@@ -4,6 +4,9 @@ This repo provides guidance for accessing the IPCC Sixth Assessment Report sea l
 
 See [Kopp et al. (2022)](https://doi.org/10.1002/essoar.10511663.1) for more background on the conceptual framing of the AR6 sea level projections.
 
+See [Kopp et al. (2023)](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-14/) for details on the [Framework for Assessing Changes To Sea-level (FACTS)](https://github.com/radical-collaboration/facts), used to produce these projections. 
+
+
 See [FAQ.md](FAQ.md) for frequently asked questions regarding the projections.
 
 ### License and Citation Information
