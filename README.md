@@ -6,8 +6,9 @@ See [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.1002/essoar.10511663.1
 
 See [Kopp, Garner, et al. (2023)](https://doi.org/10.5194/gmd-16-7461-2023) for details on the [Framework for Assessing Changes To Sea-level (FACTS)](https://github.com/radical-collaboration/facts), used to produce these projections. 
 
-
 See [FAQ.md](FAQ.md) for frequently asked questions regarding the projections.
+
+See [location_list.txt](location_list.txt) for a listing of the location IDs, site names, and associated latitude and longitudes used in the regional sea level projections.
 
 ### License and Citation Information
 
