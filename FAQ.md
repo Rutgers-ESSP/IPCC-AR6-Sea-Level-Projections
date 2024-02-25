@@ -16,6 +16,8 @@ The seven workflows differ in their treatment of cryospheric components.
 
 Note that the ISMIP6 and GlacierMIP emulator does not capture correlations between different time periods, and thus should not be used for rates.
 
+See [Kopp, Garner, et al. (2023)](https://doi.org/10.5194/gmd-16-7461-2023) for more information.
+
 **What are the different p-boxes?**
 
 | p-box | Description |
@@ -33,4 +35,4 @@ The preferred p-boxes used for level projections post 2100 are different than th
 
 **Why do the p-box and confidence files exhibit discontinuities at the 50th percentile?**
 
-P-boxes are not probability distributions, but rather an envelope that contains multiple probability distributions. Below the 50th percentile, the reported values are the minima of the specified quantile across all encompassed distributions, and above the 50th percentile they are the maxima of the specified quantile. (The reported 50th percentile is the mean across all encompassed distributions.) See [Kopp et al. (in review)](https://www.essoar.org/doi/abs/10.1002/essoar.10511663.1) for more details. 
+P-boxes are not probability distributions, but rather an envelope that contains multiple probability distributions. Below the 50th percentile, the reported values are the minima of the specified quantile across all encompassed distributions, and above the 50th percentile they are the maxima of the specified quantile. (The reported 50th percentile is the mean across all encompassed distributions.) See [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.1002/essoar.10511663.1) for more background on the conceptual framing of the AR6 sea level projections.
