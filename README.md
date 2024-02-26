@@ -2,7 +2,7 @@
 
 This repo provides guidance for accessing the IPCC Sixth Assessment Report sea level projections. See [Chapter 9 of the Working Group 1 contribution to the Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf) for more information.
 
-See [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.1002/essoar.10511663.1) for more background on the conceptual framing of the AR6 sea level projections.
+See [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.7282/00000382) for more background on the conceptual framing of the AR6 sea level projections.
 
 See [Kopp, Garner, et al. (2023)](https://doi.org/10.5194/gmd-16-7461-2023) for details on the [Framework for Assessing Changes To Sea-level (FACTS)](https://github.com/radical-collaboration/facts), used to produce these projections. 
 
