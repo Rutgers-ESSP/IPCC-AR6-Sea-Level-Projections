@@ -10,6 +10,8 @@ See [FAQ.md](FAQ.md) for frequently asked questions regarding the projections.
 
 See [location_list.txt](location_list.txt) for a listing of the location IDs, site names, and associated latitude and longitudes used in the regional sea level projections.
 
+Please [file an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/issues) on the repo if you have questions.
+
 ### License and Citation Information
 
 See [LICENSE.md](LICENSE.md) for licensing and required acknowledgements and citations.
