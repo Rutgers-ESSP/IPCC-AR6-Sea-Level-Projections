@@ -8,15 +8,13 @@ Summary versions of regional projections can  be accessed through the [NASA/IPCC
 
 Please [file an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projections/issues) on the repo if you have questions.
 
-## Additional Resources
+## Further Reading
 
 * [FAQ.md](FAQ.md) addresses frequently asked questions regarding the projections.
 
 * [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.7282/00000382) provides more background on the conceptual framing of the AR6 sea level projections.
 
 * [Kopp, Garner, et al. (2023)](https://doi.org/10.5194/gmd-16-7461-2023) provides details on the [Framework for Assessing Changes To Sea-level (FACTS)](https://github.com/radical-collaboration/facts), used to produce these projections. 
-
-* [location_list.txt](location_list.txt) provides a list of site names, location IDs, site names, and associated latitude and longitudes used in the regional sea level projections.
 
 ## Data Sets available via Zenodo
 
@@ -26,6 +24,8 @@ Please [file an issue](https://github.com/Rutgers-ESSP/IPCC-AR6-Sea-Level-Projec
 * **[IPCC AR6 Relative Sea Level Projection Distributions](https://doi.org/10.5281/zenodo.5914931):** This data set contains relative sea level projection distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as distributions for the components contributing to relative sea level change.
 * **[IPCC AR6 Relative Sea Level Projections without Background Component](https://doi.org/10.5281/zenodo.5967268):** This data set contains relative sea level projections that exclude the background term (representing primarily land subsidence or uplift). It includes probability distributions for all the workflows described in AR6 WG1 9.6.3.2, as well as p-boxes derived from these distributions.
 * **[Framework for Assessing Changes To Sea-level (FACTS) modules, scripts, and data for the IPCC AR6 sea level projections](https://doi.org/10.5281/zenodo.6419953):** This package contains the Frameworks for Assessing Changes To Sea-level (FACTS) modules, data, and scripts used to produce the sea level projections in the Intergovernmental Panel on Climate Change Sixth Assessment Report (AR6). See [the FACTS GitHub repo](https://github.com/radical-collaboration/facts) for the current version of FACTS.
+
+[location_list.txt](location_list.txt) provides a list of site names, location IDs, site names, and associated latitude and longitudes used in the regional sea level projections in these data sets.
 
 ## Access to full set of Monte Carlo samples
 
