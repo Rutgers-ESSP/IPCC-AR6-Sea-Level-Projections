@@ -121,3 +121,9 @@ The tide gauge data can also be acceessed via HTTPs through the public API endpo
 * tide gauges: `https://storage.googleapis.com/ar6-lsl-simulations-public-standard/tide-gauges/full_sample_components/{component}.zarr`
 
 Note that the gridded workflow components are in a "Requester Pays" google cloud bucket. That means that, while we are looking for a permanent hosting solution, anyone accessing the gridded workflow components data will be charged for the data retrieval and egress fees. These can be expensive. Depending on your location, downloading 2.15 TB of data can cost upwards of $90-$450 (at the time of writing). Please note that the authors are not charging for access to the data - any costs incurred are simply the costs assessed by Google to retrieve the data. In order to access the data, you will need to authenticate with an active Google Cloud account with an attached payment method. The data are in the `us-west1` (Oregon) data center. Transfers within the Google Cloud Storage platform are significantly cheaper, and within the us-west1 region much more so. See https://cloud.google.com/storage/pricing#network-pricing.
+
+## Contact information
+
+* Dr. Robert E. Kopp ([robert.kopp@rutgers.edu](mailto:robert.kopp@rutgers.edu)), Department of Earth and Planetary Sciences, Rutgers University, New Brunswick, NJ, USA
+* Dr. Aimée B. A. Slangen ([aimee.slangen@nioz.nl](mailto:aimee.slangen@nioz.nl)), Department of Estuarine and Delta Systems, NIOZ Royal Netherlands Institute for Sea Research, Yerseke, the Netherlands
+
