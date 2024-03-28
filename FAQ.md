@@ -49,3 +49,8 @@ global climate models used identify as ocean. This means the area
 for which the projections are defined is substantially
 larger than what any single model would identify as ocean. Users should apply
 their own land-ocean mask.
+
+Caution is warranted with projections defined over semi-closed
+and closed basins, where different global climate models
+may differ on whether the basin is closed, semi-closed, open,
+or land.
