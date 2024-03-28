@@ -36,3 +36,16 @@ The preferred p-boxes used for level projections post 2100 are different than th
 **Why do the p-box and confidence files exhibit discontinuities at the 50th percentile?**
 
 P-boxes are not probability distributions, but rather an envelope that contains multiple probability distributions. Below the 50th percentile, the reported values are the minima of the specified quantile across all encompassed distributions, and above the 50th percentile they are the maxima of the specified quantile. (The reported 50th percentile is the mean across all encompassed distributions.) See [Kopp, Oppenheimer, et al. (2023)](https://doi.org/10.7282/00000382) for more background on the conceptual framing of the AR6 sea level projections.
+
+**Why is sea level change defined in some places over land?**
+
+Physically, barystatic sea-level change (the change in the height of the geoid relative to the land surface) is defined over
+the whole globe, including over land (where the geoid is lower than the land surface.)
+Ocean dynamic sea-level chage is only defined over the ocean
+(where water is present), but different global climate models with
+different grids define this area differently. 
+The AR6 projections are defined anywhere at least 2 of the
+global climate models used identify as ocean. This means the area
+for which the projections are defined is substantially
+larger than what any single model would identify as ocean. Users should apply
+their own land-ocean mask.
