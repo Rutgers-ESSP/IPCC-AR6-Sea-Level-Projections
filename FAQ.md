@@ -54,3 +54,11 @@ Caution is warranted with projections defined over semi-closed
 and closed basins, where different global climate models
 may differ on whether the basin is closed, semi-closed, open,
 or land.
+
+**How are the locations organized in the regional data files? Where are the gridded regional sea-level outputs?**
+
+Both gridded outputs and tide-gauge outputs are included in the same regional output files. Locations are indexed by location ID. Location IDs below 2500 are PSMSL tide gauge IDs. Location IDs of 1000000000 or higher are on a 1 degree global grid. See [location_list.txt](location_list.txt) for the mapping of IDs to site names, latitude, and longitude. 
+
+Note that the gridded sites are on a grid but are not stored in a gridded fashion in the netcdf files. Thus, if you want to use the gridded data in a context that expects gridded data files (eg GIS), you may need to first process the output files into a suitable format. 
+
+
